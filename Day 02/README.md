@@ -57,38 +57,6 @@
 
 ---
 
-### 🧪 2.2 Demonstrations Done
-
-1. **nmap**
-   - Used for scanning local IP to find open ports and services.
-   - Command:
-     ```bash
-     nmap -sS 192.168.x.x
-     ```
-
-2. **whois**
-   - Used for domain information.
-   - Command:
-     ```bash
-     whois example.com
-     ```
-
-3. **Burp Suite**
-   - GUI tool to intercept, modify, and analyze web traffic.
-   - Used in proxy with browser to test web app vulnerabilities.
-
-4. **Metasploit Framework**
-   - Launched from terminal using:
-     ```bash
-     msfconsole
-     ```
-
-5. **Hydra**
-   - Used for dictionary attacks on login services like FTP, SSH, etc.
-   - Example:
-     ```bash
-     hydra -l admin -P passwords.txt ftp://192.168.x.x
-     ```
 
 ---
 
